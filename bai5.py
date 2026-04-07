@@ -1,8 +1,6 @@
-R = float(input("Nhập bán kính: "))
-pi = 3.14
+_list = ['zero', 'three']
 
-chu_vi = 2 * pi * R
-dien_tich = pi * R * R
+_list.insert(1, 'one')
+_list.insert(2, 'two')
 
-print("Chu vi =", chu_vi)
-print("Diện tích =", dien_tich)
+print(_list)

@@ -1,6 +1,4 @@
-s1 = input("Nhập chuỗi 1: ")
-s2 = input("Nhập chuỗi 2: ")
-s3 = input("Nhập chuỗi 3: ")
+_list = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 
-ket_qua = s1 + " " + s2 + " " + s3
-print("Chuỗi sau khi ghép:", ket_qua)
+_new = _list[2:4]  # lấy từ index 2 đến 3
+print(_new)

@@ -1,23 +1,7 @@
-a = int(input("Nhập số a: "))
-b = int(input("Nhập số b: "))
-c = int(input("Nhập số c: "))
+_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-# a) Tổng và tích
-tong = a + b + c
-tich = a * b * c
-print("Tổng =", tong)
-print("Tích =", tich)
+even = [x for x in _list if x % 2 == 0]
+odd = [x for x in _list if x % 2 != 0]
 
-# b) Hiệu của 2 số bất kỳ (ví dụ a - b)
-print("Hiệu a - b =", a - b)
-print("Hiệu b - c =", b - c)
-print("Hiệu a - c =", a - c)
-
-# c) Phép chia
-# Ví dụ chia a cho b
-if b != 0:
-    print("a // b =", a // b)   # chia lấy phần nguyên
-    print("a % b =", a % b)     # phần dư
-    print("a / b =", a / b)     # chia chính xác
-else:
-    print("Không thể chia cho 0")
+print("Số chẵn:", even)
+print("Số lẻ:", odd)

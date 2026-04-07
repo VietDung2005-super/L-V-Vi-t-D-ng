@@ -1,5 +1,3 @@
-a = int(input("Nhập số thứ nhất: "))
-b = int(input("Nhập số thứ hai: "))
-
-tong = a + b
-print("Tổng =", tong)
+_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+tong = sum(_list)
+print("Tổng:", tong)
